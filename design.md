@@ -14,8 +14,7 @@ The system is an AI-powered platform that helps users understand legal issues in
 
 ### System Architecture (Block Diagram)
 
-+--------------------+ |        User        | +---------+----------+ | v +--------------------+ |  User Interface    | | (Web / Mobile App) | +---------+----------+ | v +--------------------+ |    Backend API     | | (Request Handler) | +---------+----------+ | v +--------------------+ |   AI / NLP Engine  | | (Intent Analysis) | +---------+----------+ | v +--------------------+ | Legal Knowledge    | |     Base           | +---------+----------+ | v +--------------------+ | Risk Analysis      | |     Module         | +---------+----------+ | v +--------------------+ | Response Generator | +--------------------+
-
+"C:\Users\madin\Downloads\ChatGPT Image Feb 5, 2026, 11_09_37 PM.png"
 
 ---
 
@@ -25,8 +24,6 @@ The system is an AI-powered platform that helps users understand legal issues in
 3. Relevant legal information is retrieved  
 4. Risk level is analyzed  
 5. Simplified guidance is shown to the user  
-
-### System Workflow (Flowchart)
 
 ### System Workflow (Flowchart)
 
@@ -54,4 +51,5 @@ G --> H[Legal Awareness Output]
 - No personal data stored
 - Clear legal disclaimers
 - Bias-aware AI responses
+
 
