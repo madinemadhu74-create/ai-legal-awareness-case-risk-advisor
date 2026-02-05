@@ -28,8 +28,17 @@ The system is an AI-powered platform that helps users understand legal issues in
 
 ### System Workflow (Flowchart)
 
-+------------------+ |  Start           | +--------+---------+ | v +------------------+ | User Enters      | | Legal Issue      | +--------+---------+ | v +------------------+ | NLP Processing   | | & Intent Detect  | +--------+---------+ | v +------------------+ | Retrieve Laws    | | from Knowledge   | | Base             | +--------+---------+ | v +------------------+ | Analyze Case     | | Risk Level       | +--------+---------+ | v +------------------+ | Generate Legal   | | Guidance         | +--------+---------+ | v +------------------+ | Display Result   | | to User          | +------------------+
+### System Workflow (Flowchart)
 
+**```mermaid**
+flowchart TD
+A[User Enters Legal Issue] --> B[User Interface]
+B --> C[Backend API]
+C --> D[AI / NLP Engine]
+D --> E[Legal Knowledge Base]
+E --> F[Risk Analysis Module]
+F --> G[Response Generator]
+G --> H[Legal Awareness Output]
 
 ---
 
@@ -45,3 +54,4 @@ The system is an AI-powered platform that helps users understand legal issues in
 - No personal data stored
 - Clear legal disclaimers
 - Bias-aware AI responses
+
