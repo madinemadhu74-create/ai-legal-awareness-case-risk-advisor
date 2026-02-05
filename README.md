@@ -1,3 +1,7 @@
+# NyayaMitra AI – Legal Awareness & Case Risk Advisor
+
+NyayaMitra AI is an AI-powered platform designed to improve legal awareness
+and provide basic case risk assessment for citizens using simple language.
 # AI-Powered Legal Awareness & Case Risk Advisor
 
 ## Problem Statement
