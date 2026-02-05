@@ -3,6 +3,8 @@
 ## Overview
 The system is an AI-powered platform that helps users understand legal issues in simple language and assess basic case risks. It does not replace lawyers and provides guidance with disclaimers.
 
+---
+
 ## Architecture
 - User Interface (Web / Mobile)
 - Backend API
@@ -10,12 +12,26 @@ The system is an AI-powered platform that helps users understand legal issues in
 - Legal Knowledge Base
 - Risk Analysis Module
 
+### System Architecture (Block Diagram)
+
++--------------------+ |        User        | +---------+----------+ | v +--------------------+ |  User Interface    | | (Web / Mobile App) | +---------+----------+ | v +--------------------+ |    Backend API     | | (Request Handler) | +---------+----------+ | v +--------------------+ |   AI / NLP Engine  | | (Intent Analysis) | +---------+----------+ | v +--------------------+ | Legal Knowledge    | |     Base           | +---------+----------+ | v +--------------------+ | Risk Analysis      | |     Module         | +---------+----------+ | v +--------------------+ | Response Generator | +--------------------+
+
+
+---
+
 ## Workflow
-1. User enters legal issue in simple language
-2. Input is processed using NLP
-3. Relevant legal information is retrieved
-4. Risk level is analyzed
-5. Simplified guidance is shown to the user
+1. User enters legal issue in simple language  
+2. Input is processed using NLP  
+3. Relevant legal information is retrieved  
+4. Risk level is analyzed  
+5. Simplified guidance is shown to the user  
+
+### System Workflow (Flowchart)
+
++------------------+ |  Start           | +--------+---------+ | v +------------------+ | User Enters      | | Legal Issue      | +--------+---------+ | v +------------------+ | NLP Processing   | | & Intent Detect  | +--------+---------+ | v +------------------+ | Retrieve Laws    | | from Knowledge   | | Base             | +--------+---------+ | v +------------------+ | Analyze Case     | | Risk Level       | +--------+---------+ | v +------------------+ | Generate Legal   | | Guidance         | +--------+---------+ | v +------------------+ | Display Result   | | to User          | +------------------+
+
+
+---
 
 ## Technology Stack
 - Frontend: HTML, CSS, JavaScript
@@ -23,8 +39,9 @@ The system is an AI-powered platform that helps users understand legal issues in
 - AI/NLP: LLM-based text processing
 - Database: Structured legal data
 
+---
+
 ## Security & Ethics
 - No personal data stored
 - Clear legal disclaimers
 - Bias-aware AI responses
-
