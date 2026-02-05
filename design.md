@@ -1,4 +1,4 @@
-# System Design – AI-Powered Legal Awareness & Case Risk Advisor
+# System Design – AI-Powered Legal Awareness & Case Risk Advisor--NyayaMitra AI
 
 ## Overview
 The system is an AI-powered platform that helps users understand legal issues in simple language and assess basic case risks. It does not replace lawyers and provides guidance with disclaimers.
@@ -27,3 +27,4 @@ The system is an AI-powered platform that helps users understand legal issues in
 - No personal data stored
 - Clear legal disclaimers
 - Bias-aware AI responses
+
