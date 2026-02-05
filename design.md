@@ -14,8 +14,39 @@ The system is an AI-powered platform that helps users understand legal issues in
 
 ### System Architecture (Block Diagram)
 
-"C:\Users\madin\Downloads\ChatGPT Image Feb 5, 2026, 11_09_37 PM.png"
-
++-------------------+
+        |   User Interface  |
+        |    (Front-End)    |
+        +-------------------+
+                 |
+                 v
+        +-------------------+
+        |  Input Processing |
+        |   (Text / PDF)    |
+        +-------------------+
+                 |
+                 v
+        +-------------------+
+        |      AI Model     |
+        | (Case Analysis &  |
+        |  Recommendations)|
+        +-------------------+
+                 |
+                 v
+        +-------------------+
+        |      Database     |
+        | (Legal Cases &    |
+        |  Knowledge Base)  |
+        +-------------------+
+                 |
+                 v
+        +-------------------+
+        |   Output Module   |
+        | (Advice & Alerts) |
+        +-------------------+
+                 |
+                 v
+               [User]
 ---
 
 ## Workflow
@@ -27,16 +58,44 @@ The system is an AI-powered platform that helps users understand legal issues in
 
 ### System Workflow (Flowchart)
 
-**```mermaid**
-flowchart TD
-A[User Enters Legal Issue] --> B[User Interface]
-B --> C[Backend API]
-C --> D[AI / NLP Engine]
-D --> E[Legal Knowledge Base]
-E --> F[Risk Analysis Module]
-F --> G[Response Generator]
-G --> H[Legal Awareness Output]
-
++---------------------+
+        |        Start        |
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        |  User submits legal |
+        |       issue         |
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        | System checks input |
+        |    format (PDF/Text)|
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        | AI analyzes issue   |
+        | against knowledge   |
+        |        base         |
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        | AI generates legal  |
+        | advice/recommendation|
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        | User receives output|
+        +---------------------+
+                 |
+                 v
+        +---------------------+
+        |         End         |
+        +---------------------+
 ---
 
 ## Technology Stack
@@ -51,5 +110,6 @@ G --> H[Legal Awareness Output]
 - No personal data stored
 - Clear legal disclaimers
 - Bias-aware AI responses
+
 
 
